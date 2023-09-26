@@ -3,6 +3,7 @@ import {
   useRef
 } from "react"; 
 import "./App.css";
+import Form from "./Form";
 
 function App() { 
   const inputRef = useRef(null); 
@@ -63,6 +64,7 @@ function App() {
         <button onClick={resetInput}>reset input</button> 
         <button onClick={resetResult}>reset result</button> 
       </form> 
+      <Form />
     </div> 
   ); 
 } 
